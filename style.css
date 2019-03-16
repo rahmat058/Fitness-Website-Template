@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  background-image: url(images/banner.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-nav li a {
+  float: right;
+  color: #fff !important;
+}
+.navbar-brand-logo {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 40px !important;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+nav .fa-bars {
+  color: #fff !important;
+  font-size: 26px;
+} 
