@@ -77,3 +77,86 @@ nav .fa-bars {
   padding: 5px;
   text-align: justify;
 }
+
+/* -------------------- Features Section ------------------- */
+#features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/feature-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+#features .col-md-6 {
+  padding: 20px;
+}
+.feature-box {
+  height: 120px;
+}
+.feature-box .feature-left {
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+.feature-box .feature-left .fa {
+  padding-top: 13px;
+  font-size: 50px; 
+}
+.feature-box .feature-right {
+  height: 120px;
+  width: 80%;
+  float: left;
+}
+.feature-box .feature-right h4 {
+  padding-top: 10px;
+  padding-left: 15px;
+  text-align: left;
+}
+.feature-box .feature-right p {
+  padding-left: 15px;
+  text-align: left;
+}
+
+/* -------------------- Testimonials Section ------------------- */
+#testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#testimonials .col-md-4 {
+  padding-top: 10px 30px;
+}
+#testimonials img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: -20px;
+  margin-top: -40px;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+}
+#testimonials .review {
+  font-size: 16px;
+  padding: 10px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2)
+}
+.review .fa-twitter {
+  color: #013f7e;
+}
+#testimonials span {
+  color: #013f7e;
+  font-weight: 600;
+  font-size: 18px;
+}
+#testimonials h1 {
+  color: #013f7e;
+  margin-bottom: 20px;
+}
+#testimonials p {
+  padding-bottom: 30px;
+}
+#testimonials .middle {
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
