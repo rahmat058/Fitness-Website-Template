@@ -26,7 +26,7 @@ nav .fa-bars {
   font-size: 26px;
 } 
 
-/* -------------------- Welcome Text ------------------- */
+/* -------------------- Welcome Section Text ------------------- */
 .welcome {
   padding: 50px 100px;
   margin-top: -140px;
@@ -44,4 +44,15 @@ nav .fa-bars {
 }
 .welcome .btn:focus {
   box-shadow: none;
+}
+
+/* -------------------- About Section ------------------- */
+#about {
+  padding:100px 0px;
+}
+#about .col-md-6 {
+  padding:20px 15px !important;
+}
+#about h3 {
+  margin: 20px auto;
 }
